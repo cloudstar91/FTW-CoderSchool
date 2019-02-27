@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+nav {
+  height: 80px;
+  width: 1450px;
+  background-color: rgba(34, 33, 33, 0.644);
+  position: fixed;
+}
+
+header {
+  height: 1580px;
+  background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+}
+
+footer {
+  height: 600px;
+  background-color: black;
+}
+
+.maincontainer {
+  height: inherit;
+  /* get parent height */
+  width: 1170px;
+  /* add 970px for smaller screen */
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  text-align: center;
+}
+
+.spotify-logo {
+  width: 132px;
+  height: 40px;
+  margin: 20px 0;
+}
+
+nav ul {
+  width: 484px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: #d69569;
+}
+
+nav li {
+  font-weight: Bold;
+}
+
+.hero-img {
+  height: inherit;
+  margin: 0 auto;
+  background-image: url(img/background.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header .maincontainer {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slogan1 {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 400px;
+  font-size: 60pt;
+  font-weight: 700;
+  letter-spacing: -.04em;
+  line-height: 1.15;
+}
+
+.slogan2 {
+  color: white;
+  font-size: 40pt;
+}
+
+.btn-spotify {
+  width: 260px;
+  height: 100px;
+  margin: 0 auto;
+  color: white;
+  background-color: #1db954;
+  padding: 18px 42px 18px;
+  border: 0px;
+  border-radius: 500px;
+  margin-top: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 2px;
+  transition-duration: .3s;
+}
+
+.btn-spotify:hover {
+  cursor: pointer;
+  background-color: #1ed760;
+}
+
+.footcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.bigCol {
+  display: flex;
+  justify-content: center;
+}
+
+.socialicon {
+  /* flex-direction: flex-end; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin:40px 0px 0px 300px;
+
+}
+
+.icon {
+  padding: 20px;
+  margin: 5px;
+  fill: white;
+  text-decoration: none;
+}
+
+.col1,
+.col2,
+.col3,
+.col4 {
+  color: white;
+  font-size: 15pt;
+  padding: 30px;
+  text-decoration: none;
+}
+
+
+footer li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footcontainer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footcontainer a:hover {
+  color: orange;
+}
