@@ -12,7 +12,7 @@ body {
 
 nav {
   height: 80px;
-  width: 1450px;
+  width: 100%;
   background-color: rgba(34, 33, 33, 0.644);
   position: fixed;
 }
@@ -126,7 +126,7 @@ header .maincontainer {
 
 .bigCol {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .socialicon {
@@ -141,8 +141,8 @@ header .maincontainer {
 .icon {
   padding: 20px;
   margin: 5px;
-  fill: white;
   text-decoration: none;
+  font-size: 30px;
 }
 
 .col1,
@@ -154,7 +154,6 @@ header .maincontainer {
   padding: 30px;
   text-decoration: none;
 }
-
 
 footer li {
   list-style-type: none;
@@ -168,4 +167,22 @@ footer li {
 
 .footcontainer a:hover {
   color: orange;
+}
+
+.extra-line {
+  list-style-type: none;
+  display:flex;
+  justify-content: flex-start;
+  margin:50px;
+  padding: 80px;
+  
+}
+.extra-line a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+.extra-line a:hover{
+  text-decoration: none;
+  color: rgb(175, 54, 54);
 }
